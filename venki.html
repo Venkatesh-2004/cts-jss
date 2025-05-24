@@ -1,0 +1,22 @@
+<script src="main.js"></script>
+<div id="eventList"></div>
+
+<select id="categoryFilter">
+  <option value="All">All</option>
+  <option value="Music">Music</option>
+  <option value="Tech">Tech</option>
+</select>
+
+<input id="searchInput" placeholder="Search event by name" />
+
+<div id="loadingSpinner" style="display: none;">Loading...</div>
+
+<form id="registerForm">
+  <input type="text" name="username" placeholder="Your Name" />
+  <input type="email" name="email" placeholder="Your Email" />
+  <select name="event">
+    <option value="">Select Event</option>
+    <option value="Music Fiesta">Music Fiesta</option>
+  </select>
+  <button type="submit" id="registerBtn">Register</button>
+</form>
